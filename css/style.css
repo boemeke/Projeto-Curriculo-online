@@ -3,7 +3,6 @@ header {
     justify-content: space-between;
 
     background-color: #7C5E99;
-    /* background-color: #2C465C; */
     border-bottom: 10px solid black;
     padding: 10px 20px;
 }
@@ -31,31 +30,20 @@ a {
 a::before {
     content: "";
     background-color: #F25A70;
-    /* background-color: #4597DF; */
     width: 10px;
     height: 10px;
     margin-right: 10px;
 }
-
-a:hover::before {
-    content: "";
-    background-color: white;
-    /* background-color: #4597DF; */
+span{
+    background-color:#F25A70;
     width: 10px;
     height: 10px;
     margin-right: 10px;
-    transition: 0.5s;
-}
-
-a:hover {
-    color: #000;
-    transform: scale(1.1);
 }
 
 #button {
     display: inline-block;
     background-color: #F25A70;
-    /* background-color: #84B1D9; */
     box-shadow: 5px 5px 0px #000;
     padding: 18px 20px;
     margin-right: 0;
@@ -63,5 +51,5 @@ a:hover {
 }
 
 #button:hover {
-    transform: scale(1.1);
+    transform: scale(1.08);
 }
