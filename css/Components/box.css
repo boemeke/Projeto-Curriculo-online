@@ -4,9 +4,10 @@
     width: 630px;
     box-shadow: 10px 10px 0 black;
     text-align: center;
-    padding: 42px 44px;
-    
+    padding: 42px 10px;
+
 }
-.box .title{
+
+.box .title {
     margin-bottom: 28px;
 }
