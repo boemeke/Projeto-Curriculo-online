@@ -8,6 +8,9 @@
 .section .main-title {
     margin-bottom: 60px;
 }
-.card-section{
+.section.-bgBlack{
     background-color: black;
+}
+.section.-borderColor{
+    border-color: #F25A70;
 }
