@@ -28,4 +28,7 @@
 
     transform: translate(50px);
     transform: rotate(180deg) translate(12px);
+    
+}.button-arrow.-right{
+
 }
