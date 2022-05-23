@@ -31,6 +31,8 @@
     <link rel="stylesheet" href="css/Components/card-project.css">
     <link rel="stylesheet" href="css/Components/node-card.css">
     <link rel="stylesheet" href="css/Components/main-carrousel.css">
+    <link rel="stylesheet" href="css/Components/main-contato.css">
+    <link rel="stylesheet" href="css/Components/main-footer.css">
 
 </head>
 
@@ -169,7 +171,7 @@
     </section>
     <section class="main-section -bgpurple -bordercolor">
         <h2 class="main-title -second">Sobre</h2>
-        
+
         <section class="main-carrousel">
             <button class="button-arrow -left"><span class="content">Avançar</span> </button>
             <div class="itens">
@@ -222,7 +224,35 @@
             Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
     </section>
-    
+    <section class="main-contato">
+        <h2 class="main-title -second">Contatos</h2>
+
+        <form action="" method="post">
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                 <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <label for="msg">Message:</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </li>
+                <li class="button">
+                    <button type="submit">Send your message</button>
+                  </li>
+            </ul>
+        </form>
+    </section>
+    <footer class="main-footer">
+        <img src="assets/img/twitter 1.png" alt="Logo twitter" class="action">
+        <img src="assets/img/youtube 1.png" alt="Logo YouTube" class="action">
+        <img src="assets/img/discord 1.png" alt="Logo Discord" class="action">
+    </footer>
+
     <script src="JS/components/main-carrousel.js"></script>
 </body>
 
