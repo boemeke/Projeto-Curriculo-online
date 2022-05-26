@@ -2,7 +2,7 @@
     box-sizing: border-box;
     background-image: url(../../assets/img/photo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 762px;
     border-bottom: 10px solid black;
     padding-top: 115px;

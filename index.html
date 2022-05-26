@@ -12,8 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="css/rest.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Components/@media.css">
     <link rel="stylesheet" href="css/Components/main-header.css">
     <link rel="stylesheet" href="css/Components/main-banner.css">
     <link rel="stylesheet" href="css/Components/main-title.css">
@@ -33,10 +33,16 @@
     <link rel="stylesheet" href="css/Components/main-carrousel.css">
     <link rel="stylesheet" href="css/Components/main-contato.css">
     <link rel="stylesheet" href="css/Components/main-footer.css">
+    <link rel="stylesheet" href="css/Components/main-label.css">
+    <link rel="stylesheet" href="css/Components/main-input.css">
+    <link rel="stylesheet" href="css/Components/main-form.css">
+
 
 </head>
 
+
 <body>
+
     <header class="main-header">
 
         <img src="assets/img/logo.png" alt="avatar">
@@ -45,12 +51,14 @@
             <!-- SEO = Search Engine Optmization -->
             <!-- <a href="" lang="en">Skill</a> lang usado nesta linha serve para informar que a um apalavra em ingles e na busca na internet tb sera procurado em ingles. -->
 
-            <a class="main-action" href="" lang="en">Skill</a>
-            <a class="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contatos</a>
-            <a class="main-button" href="" lang="en">Download CV</a>
+            <a class="main-action animation2" href="" lang="en">Skill</a>
+            <a class="main-action animation2" href="">Projetos</a>
+            <a class="main-action animation2" href="">Sobre</a>
+            <a class="main-action animation2" href="">Contatos</a>
+            <a class="main-button animation2" href="" lang="en">Download CV</a>
         </nav>
+
+        <!-- <img src="assets/img/my-pixel.png" alt="menu icon" class="menu animation1"> -->
 
     </header>
 
@@ -224,29 +232,22 @@
             Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
         </p>
     </section>
-    <section class="main-contato">
-        <h2 class="main-title -second">Contatos</h2>
 
-        <form action="" method="post">
-            <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name">
-                </li>
-                <li>
-                 <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="user_email">
-                </li>
-                <li>
-                    <label for="msg">Message:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                </li>
-                <li class="button">
-                    <button type="submit">Send your message</button>
-                  </li>
-            </ul>
-        </form>
-    </section>
+    <form class="main-form">
+        <legend class="main-title -second">Contatos</legend>
+
+        <label class="main-label" for="name">Nome:</label>
+        <input class="main-input" id="name" type="text" required>
+
+        <label class="main-label" for="email">E-mail:</label>
+        <input class="main-input" id="email" type="email" required>
+
+        <label class="main-label" for="message">Mensagem:</label>
+        <textarea class="main-input -textarea" id="message" required></textarea>
+
+        <button class="main-button -full" type="submit">Enviar</button>
+    </form>
+
     <footer class="main-footer">
         <img src="assets/img/twitter 1.png" alt="Logo twitter" class="action">
         <img src="assets/img/youtube 1.png" alt="Logo YouTube" class="action">

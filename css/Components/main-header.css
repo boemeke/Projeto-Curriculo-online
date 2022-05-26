@@ -1,8 +1,59 @@
 .main-header {
     display: flex;
     justify-content: space-between;
-
     background-color: #7C5E99;
     border-bottom: 10px solid black;
     padding: 10px 20px;
+}
+
+.menu {
+    display: none;
+
+}
+
+/* @media only screen and (max-width: 709px) {
+
+    .menu{
+
+        width: 50px;
+        cursor: pointer;
+        display: block;
+        
+          
+
+    }
+    .animation1{
+        -moz-animation: animation1 1.0s both;
+        
+    }
+
+    @-moz-keyframes animation1{
+            0%{
+            opacity: 0;
+            -webkit-transform: translateX(-50px);
+            
+        }
+        100%{
+        opacity: 1;
+        -webkit-transform: translateX(0);
+        }
+    }
+    
+    .animation2{
+        -moz-animation: animation2 1.0s both;
+
+    }  
+    @-moz-keyframes animation{
+        0%{
+            animation-direction: normal;
+            -webkit-transform: translateX(10px)
+        }
+    }
+
+
+
+    .main-header .main-button {
+        display: none;
+    } */
+
 }
